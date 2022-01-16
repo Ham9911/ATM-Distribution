@@ -40,6 +40,7 @@ const updateHtml=()=>{
   let total=(widraw.thousand*1000)+(widraw.fiveHundred*500)+(widraw.hundred*100)+(widraw.fifty*50)+(widraw.twenty*20)+(widraw.ten*10)+(widraw.five*5)+(widraw.one);
   console.log(total);
 }
+//Function for distributing remaing amount after user's Preffered Note
 function remainingAmount(ammountRequired) {
    if (widraw.fiveHundred != 0) {
     var availableNotes = [ 100, 50, 20, 10, 5, 1]
@@ -114,6 +115,7 @@ function remainingAmount(ammountRequired) {
 
   return result;
 }
+//For Prefered Note Distribution
 const prefFirst=()=>{
 if (preferedNotes) {
   //For FiveHundred
