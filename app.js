@@ -242,6 +242,7 @@ if (preferedNotes) {
   }
 }
 }
+
 if(preferedNotes){
   prefFirst();
   console.log(remainingAmount(enteredAmount));
@@ -255,6 +256,7 @@ if (enteredAmount && preferedNotes===0) {
 console.log(widraw);
 updateHtml();
 }
+// Amount dont Exceed from 100000
 if(enteredAmount>100000){
   alert("Enter Amount Within Range of 1 to 100000");
 }
